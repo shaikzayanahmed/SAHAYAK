@@ -26,7 +26,7 @@ def test_student_registration_flow(client):
         "/api/v1/auth/register",
         json={
             "email": "newstudent@nie.ac.in",
-            "password": "SecurePassword123",
+            "password": "SecurePassword@123",
             "full_name": "New Student",
             "usn": new_usn,
             "branch": "Computer Science & Engineering",

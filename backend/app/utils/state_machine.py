@@ -8,8 +8,6 @@ VALID_TRANSITIONS: Dict[str, Set[str]] = {
         ReportStatus.ACTIVE.value,
         ReportStatus.MATCH_SUGGESTED.value,
         ReportStatus.MATCHED.value,
-        ReportStatus.RETURNED.value,
-        ReportStatus.SAFELY_RETURNED.value,
         ReportStatus.CLOSED.value,
         ReportStatus.PAUSED.value
     },
@@ -17,8 +15,7 @@ VALID_TRANSITIONS: Dict[str, Set[str]] = {
         ReportStatus.MATCH_SUGGESTED.value,
         ReportStatus.MATCHED.value,
         ReportStatus.VERIFICATION_PENDING.value,
-        ReportStatus.RETURNED.value,
-        ReportStatus.SAFELY_RETURNED.value,
+        ReportStatus.UNDER_REVIEW.value,
         ReportStatus.PAUSED.value,
         ReportStatus.CLOSED.value
     },
